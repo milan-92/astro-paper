@@ -57,20 +57,20 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              Posts
+              Blog
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
           </li>
-          {
+          <!-- {
             SITE.showArchives && (
               <li>
                 <LinkButton
@@ -104,8 +104,8 @@ const { activeNav } = Astro.props;
                 </LinkButton>
               </li>
             )
-          }
-          <li>
+          } -->
+          <!-- <li>
             <LinkButton
               href="/search/"
               className={`focus-outline p-3 sm:p-1 ${
@@ -123,7 +123,7 @@ const { activeNav } = Astro.props;
               </svg>
               <span class="sr-only">Search</span>
             </LinkButton>
-          </li>
+          </li> -->
           {
             SITE.lightAndDarkMode && (
               <li>

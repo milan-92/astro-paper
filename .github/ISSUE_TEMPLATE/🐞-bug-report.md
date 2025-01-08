@@ -1,6 +1,6 @@
 ---
 name: "\U0001F41E Bug report"
-about: Report a bug or unexpected behavior in AstroPaper
+About: Report a bug or unexpected behavior in AstroPaper
 title: "[BUG]: "
 labels: bug
 assignees: ""
@@ -24,4 +24,4 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context About the problem here.

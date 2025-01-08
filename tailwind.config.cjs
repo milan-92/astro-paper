@@ -17,7 +17,18 @@ module.exports = {
     screens: {
       sm: "640px",
     },
-
+    fontFamily: {
+      // mono: ["IBM Plex Mono", "monospace"],
+      mono: [
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji"
+      ],
+    },
     extend: {
       textColor: {
         skin: {
@@ -58,9 +69,6 @@ module.exports = {
         skin: {
           accent: withOpacity("--color-accent")
         }
-      },
-      fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
       },
 
       typography: {
