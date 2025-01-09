@@ -7,10 +7,10 @@
   html[data-theme="light"] {
     --color-fill: 255, 251, 235;
     --color-text-base: 69, 26, 3;
-    --color-accent: 200, 152, 30;
+    --color-accent: 234, 88, 12;
     --color-card: 254, 243, 199;
     --color-card-muted: 253, 230, 138;
-    --color-border: 250, 190, 37;
+    --color-border: 234, 88, 12;
   }
   html[data-theme="dark"] {
     --color-fill: 47, 55, 65;
