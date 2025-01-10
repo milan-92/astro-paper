@@ -30,7 +30,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Github",
     href: "https://github.com/milan-92/",
-    linkTitle: ` ${SITE.title} on Github`,
+    linkTitle: `${SITE.title} on Github`,
     active: true,
   },
   {
@@ -40,27 +40,33 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
+    name: "Spotify",
+    href: "https://stackoverflow.com/search?q=astropaper",
+    linkTitle: `Listen to The New Savages on Spotify`,
+    active: true,
+  },
+  {
     name: "Instagram",
     href: "https://www.instagram.com/milanmilutinovic_92/",
-    linkTitle: `${SITE.title} on Instagram`,
+    linkTitle: `Follow Milan on Instagram`,
     active: true,
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/milanmilutinovic-/",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    linkTitle: `Milan on LinkedIn`,
     active: true,
   },
   {
     name: "Mail",
     href: "mailto:milan@seventhsonrecords.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    linkTitle: `Send an email to Milan`,
     active: false,
   },
   {
     name: "X",
     href: "https://x.com/milanmil_",
-    linkTitle: `${SITE.title} on X`,
+    linkTitle: `Milan on X`,
     active: true,
   },
   {
