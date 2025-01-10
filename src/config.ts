@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://milanmilutinovic.com/",
   desc: "Building Conference King in Public.",
   title: "Building Conference King in Public",
-  ogImage: "favicon.svg",
+  ogImage: "favicon.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
