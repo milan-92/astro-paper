@@ -46,7 +46,7 @@ function reflectPreference() {
       
     // Update CommentBox theme
     if (window.commentBox) {
-      commentBox('5703181736607744-proj', {
+      commentBox('5671363712909312-proj', {
         className: 'commentbox',
         defaultBoxId: window.location.pathname,
         backgroundColor: themeValue === 'dark' ? 'rgb(47, 55, 65)' : 'rgb(255, 251, 235)',
