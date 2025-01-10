@@ -3,12 +3,10 @@ import * as glob from 'glob';
 import matter from 'gray-matter';
 import { execSync } from 'child_process';
 
-// Get modified AND staged markdown files
 const getModifiedMdFiles = () => {
   const result = execSync('git status --porcelain "*.md"')
     .toString()
     .trim();
-  console.log('Modified MD files:', result);
   return result
     ? result
         .split('\n')
@@ -18,48 +16,36 @@ const getModifiedMdFiles = () => {
 };
 
 const modifiedFiles = getModifiedMdFiles();
-console.log('Processing files:', modifiedFiles);
 
 modifiedFiles.forEach(file => {
-  console.log(`Processing ${file}`);
+  // Read the original file as plain text
+  const originalContent = fs.readFileSync(file, 'utf-8');
   
-  // Read the file content as plain text
-  const content = fs.readFileSync(file, 'utf-8');
+  // Find the frontmatter section
+  const matches = originalContent.match(/^---\n([\s\S]*?)\n---/);
+  if (!matches) return;
   
-  // Parse frontmatter while preserving original format
-  const { data, content: markdown } = matter(content, {
-    engines: {
-      yaml: {
-        stringify: (obj) => {
-          const lines = [];
-          for (const [key, value] of Object.entries(obj)) {
-            // Keep pubDatetime exactly as is
-            if (key === 'pubDatetime') {
-              lines.push(`${key}: ${data.pubDatetime}`);
-            }
-            // Add modDatetime in YYYY-MM-DD format
-            else if (key === 'modDatetime') {
-              lines.push(`${key}: ${new Date().toISOString().split('T')[0]}`);
-            }
-            // Keep all other fields as they are
-            else {
-              lines.push(`${key}: ${value}`);
-            }
-          }
-          return lines.join('\n');
-        }
-      }
-    }
-  });
+  // Update only modDatetime in the frontmatter
+  let frontmatter = matches[1];
+  const today = new Date().toISOString().split('T')[0];
   
-  // If modDatetime doesn't exist, add it
-  if (!data.modDatetime) {
-    data.modDatetime = new Date().toISOString().split('T')[0];
+  if (frontmatter.includes('modDatetime:')) {
+    // Replace existing modDatetime
+    frontmatter = frontmatter.replace(
+      /modDatetime:.*(\r?\n|$)/,
+      `modDatetime: ${today}\n`
+    );
+  } else {
+    // Add modDatetime if it doesn't exist
+    frontmatter += `\nmodDatetime: ${today}`;
   }
   
-  const updatedContent = matter.stringify(markdown, data);
-  fs.writeFileSync(file, updatedContent);
+  // Reconstruct the file
+  const newContent = originalContent.replace(
+    /^---\n[\s\S]*?\n---/,
+    `---\n${frontmatter}---`
+  );
   
+  fs.writeFileSync(file, newContent);
   execSync(`git add ${file}`);
-  console.log(`Updated and staged ${file}`);
 }); 
