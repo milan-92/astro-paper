@@ -11,6 +11,8 @@ My name is Milan. Nice to meet you.
 
 A long time ago I was an <a href="https://www.youtube.com/watch?v=hv7BS9yV2Rg" target="_blank">indie blues musician</a> in Australia and I started my software career by hardcoding basic websites for other indie musicians. Eventually I started building more complex tools and software for other people.
 
+<a href="/public/assets/hoian2.jpg" target="_blank"><img src="/public/assets/logo.png" alt="Milan in Hoi An, Vietnam" /></a>
+
 Building software for other people has allowed me to travel the world as a Digital Nomad, meet amazing people, and learn a lot about myself. It led me to attending many Digital Nomad conferences and events around the world - the people I met at these conferences greatly changed my perspective on life. 
 
 These great events and meeting all these people - I was inspired to put my own conference together in <a href="https://www.nisnomadweek.com/" target="_blank">Niš, Serbia</a>. A little city in Serbia that I've been calling home for the past few years - the city my parents were born and raised in before they moved to Australia.

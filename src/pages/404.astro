@@ -12,8 +12,15 @@ import LinkButton from "@components/LinkButton.astro";
   <main id="main-content">
     <div class="not-found-wrapper">
       <h1>404</h1>
-      <span aria-hidden="true">¯\_(ツ)_/¯</span>
       <p>Page Not Found</p>
+      <div class="youtube-container">
+        <lite-youtube 
+          videoid="1lWMMjiAW4Y" 
+          style="margin: 2em 0;"
+          params="nocookie=1">
+        </lite-youtube>
+      </div>
+      <span style="padding:1em">Why don't you make the most of this unexpected detour and listen to my old band's first song</span>
       <LinkButton
         href="/"
         className="my-6 text-lg underline decoration-dashed underline-offset-8"
@@ -25,6 +32,10 @@ import LinkButton from "@components/LinkButton.astro";
 
   <Footer />
 </Layout>
+
+<script>
+  import "@justinribeiro/lite-youtube";
+</script>
 
 <style>
   #main-content {
@@ -38,5 +49,8 @@ import LinkButton from "@components/LinkButton.astro";
   }
   .not-found-wrapper p {
     @apply mt-4 text-2xl sm:text-3xl;
+  }
+  .youtube-container {
+    @apply w-full max-w-[560px];
   }
 </style>
