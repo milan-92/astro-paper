@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://milanmilutinovic.com/",
   desc: "Building in Public.",
   title: "Conference King",
-  ogImage: "milan.png",
+  ogImage: "favicon.svg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
@@ -20,7 +20,7 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
   width: 216,
   height: 46,

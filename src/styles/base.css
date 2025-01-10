@@ -134,17 +134,7 @@ a[href^="http"]:not(:has(svg))::after {
   font-size: 0.8em;
 }
 
-a.logo {
-  font-size: 1.5rem;
-  font-weight: 900;
-}
 body {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' transform='scale(3)'%3E%3Crect width='100%25' height='100%25' fill='transparent'/%3E%3Cpath fill='none' stroke='currentColor' stroke-opacity='0.02' stroke-width='.2' d='M10 0v20ZM0 10h20Z'/%3E%3C/svg%3E");
   background-size: 60px 60px;
-}
-
-@media (min-width: 640px) {
-  a.logo {
-    font-size: 2.5rem;
-  }
 }

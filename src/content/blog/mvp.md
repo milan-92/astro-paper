@@ -15,7 +15,9 @@ From the time of writing there are 62 days left until <a href="https://www.vietn
 
 ![Vietnam Nomad Fest](/assets/vnf.jpg)
 
-From our conversation I decided on these basic featuresets to get Conference King ready for VNF.
+I also had a video call with Jan from <a href="https://nomads-in-paradise.com/" target="_blank">Nomads in Paradise</a>, he's currently in Germany.
+
+From these conversations I decided on these basic featuresets to get Conference King ready for VNF.
 
 ## Core Features for Conference King MVP
 
