@@ -1,6 +1,6 @@
 ---
 author: Milan Milutinović
-pubDatetime: 2024-01-10
+pubDatetime: 2025-01-10
 title: An MVP Roadmap
 slug: road-to-mvp
 featured: true
@@ -13,8 +13,6 @@ description: >-
 I had coffee today in Da Nang with Markos & Dimitris, the organizers of Vietnam Nomad Fest. They're interested in trialling the product at VNF - I also applied to present this journey on stage as as speaker at VNF as well. So pressure is on - if Conference King sucks at VNF I'll have to answer on stage to the wrath of an unhappy crowd. Let's hope they don't throw tomatoes at me.
 
 From the time of writing there are 62 days left until <a href="https://www.vietnamnomadfest.com" target="_blank">the Vietnam Nomad Fest</a>. So here's a nice deadline to get a basic MVP for Conference King ready. I can go on the website anytime I want to watch the clock tickdown in time to launch this MVP. It's good to have some fire under your feet to get things done.
-
-a
 
 ![Vietnam Nomad Fest](/assets/vnf.jpg)
 

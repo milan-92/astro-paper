@@ -3,33 +3,63 @@ import * as glob from 'glob';
 import matter from 'gray-matter';
 import { execSync } from 'child_process';
 
-// Get only staged markdown files
-const getStagedMdFiles = () => {
-  const result = execSync('git diff --cached --name-only --diff-filter=ACM "*.md"')
+// Get modified AND staged markdown files
+const getModifiedMdFiles = () => {
+  const result = execSync('git status --porcelain "*.md"')
     .toString()
     .trim();
-  return result ? result.split('\n') : [];
+  console.log('Modified MD files:', result);
+  return result
+    ? result
+        .split('\n')
+        .map(line => line.slice(3))
+        .filter(file => file.startsWith('src/content/blog/'))
+    : [];
 };
 
-// Format date as YYYY-MM-DD
-const formatDate = (date: Date) => {
-  return date.toISOString().split('T')[0];
-};
+const modifiedFiles = getModifiedMdFiles();
+console.log('Processing files:', modifiedFiles);
 
-const stagedFiles = getStagedMdFiles();
-
-stagedFiles.forEach(file => {
-  if (!file.startsWith('src/content/blog/')) return;
+modifiedFiles.forEach(file => {
+  console.log(`Processing ${file}`);
   
+  // Read the file content as plain text
   const content = fs.readFileSync(file, 'utf-8');
-  const { data, content: markdown } = matter(content);
   
-  // Update modDatetime
-  data.modDatetime = formatDate(new Date());
+  // Parse frontmatter while preserving original format
+  const { data, content: markdown } = matter(content, {
+    engines: {
+      yaml: {
+        stringify: (obj) => {
+          const lines = [];
+          for (const [key, value] of Object.entries(obj)) {
+            // Keep pubDatetime exactly as is
+            if (key === 'pubDatetime') {
+              lines.push(`${key}: ${data.pubDatetime}`);
+            }
+            // Add modDatetime in YYYY-MM-DD format
+            else if (key === 'modDatetime') {
+              lines.push(`${key}: ${new Date().toISOString().split('T')[0]}`);
+            }
+            // Keep all other fields as they are
+            else {
+              lines.push(`${key}: ${value}`);
+            }
+          }
+          return lines.join('\n');
+        }
+      }
+    }
+  });
+  
+  // If modDatetime doesn't exist, add it
+  if (!data.modDatetime) {
+    data.modDatetime = new Date().toISOString().split('T')[0];
+  }
   
   const updatedContent = matter.stringify(markdown, data);
   fs.writeFileSync(file, updatedContent);
   
-  // Stage the updated file
   execSync(`git add ${file}`);
+  console.log(`Updated and staged ${file}`);
 }); 
