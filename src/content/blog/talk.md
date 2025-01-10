@@ -9,7 +9,10 @@ description: >-
   Your software exists to serve the needs of your customers. Don't build your
   MVP and hope to find customers. Build your relationship with your customers
   before you write a single line of code.
+modDatetime: 2025-01-10
 ---
+
+aaa
 
 Your software exists to serve the needs of your customers. Don't build your MVP and hope to find customers. Build your relationship with your customers before you write a single line of code.
 
