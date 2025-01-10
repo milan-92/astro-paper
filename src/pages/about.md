@@ -6,12 +6,10 @@ description: What is the purpose of this blog?
 ---
 
 My name is Milan. Nice to meet you. 
-<!-- I've put on my nicest shirt and pants just for you - So thanks for taking the time to drop by.
-<img src="/public/assets/hoian2.jpg" alt="Milan in Hoi An, Vietnam" /> -->
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=191490515/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://thenewsavages.bandcamp.com/album/in-my-time-of-dyin">In My Time of Dyin&#39; by The New Savages</a></iframe>
 
 A long time ago I was an <a href="https://www.youtube.com/watch?v=hv7BS9yV2Rg" target="_blank">indie blues musician</a> in Australia and I started my software career by hardcoding basic websites for other indie musicians. Eventually I started building more complex tools and software for other people.
-
-<a href="/public/assets/hoian2.jpg" target="_blank"><img src="/public/assets/logo.png" alt="Milan in Hoi An, Vietnam" /></a>
 
 Building software for other people has allowed me to travel the world as a Digital Nomad, meet amazing people, and learn a lot about myself. It led me to attending many Digital Nomad conferences and events around the world - the people I met at these conferences greatly changed my perspective on life. 
 

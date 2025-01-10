@@ -5,8 +5,9 @@ title: An MVP Roadmap
 slug: road-to-mvp
 featured: true
 draft: false
-description:
-  From the time of writing there are 62 days left until the Vietnam Nomad Fest. So here's a nice deadline to get a basic MVP ready.
+description: >-
+  From the time of writing there are 62 days left until the Vietnam Nomad Fest.
+  So here's a nice deadline to get a basic MVP ready.
 ---
 
 I had coffee today in Da Nang with Markos & Dimitris, the organizers of Vietnam Nomad Fest. They're interested in trialling the product at VNF - I also applied to present this journey on stage as as speaker at VNF as well. So pressure is on - if Conference King sucks at VNF I'll have to answer on stage to the wrath of an unhappy crowd. Let's hope they don't throw tomatoes at me.
