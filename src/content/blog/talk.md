@@ -11,8 +11,6 @@ description: >-
   before you write a single line of code.
 ---
 
-sup
-
 Your software exists to serve the needs of your customers. Don't build your MVP and hope to find customers. Build your relationship with your customers before you write a single line of code.
 
 The problem we all have is we prefer fantasies to reality. When we finally give ourselves the freedom to pursue our dreams - we prefer to keep that unrealized fantasy alive for as long as possible - for many programmers this means building your software in a silo, away from the reality of what your customers' needs and desires are.
