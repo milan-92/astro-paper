@@ -7,13 +7,6 @@ const { pageId } = Astro.props;
 </div>
 
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-<script>
-  // Replace this with your project ID from CommentBox.io
-  commentBox('5671363712909312-proj', {
-    className: 'commentbox',
-    defaultBoxId: window.location.pathname
-  });
-</script>
 
 <style>
   .commentbox {
@@ -22,33 +15,4 @@ const { pageId } = Astro.props;
     border-top: 1px solid rgb(var(--color-border));
   }
 
-  /* Comment input area */
-  :global(.commentbox-textbox) {
-    background-color: rgb(var(--color-card));
-    color: rgb(var(--color-text-base));
-    border: 1px solid rgb(var(--color-border));
-  }
-
-  /* Individual comments */
-  :global(.commentbox-comment) {
-    background-color: rgb(var(--color-card));
-    border: 1px solid rgb(var(--color-border));
-    margin: 1rem 0;
-  }
-
-  /* Username and timestamp */
-  :global(.commentbox-comment-username) {
-    color: rgb(var(--color-text-base));
-  }
-
-  /* Submit button and interactive elements */
-  :global(.commentbox-submit) {
-    background-color: rgb(var(--color-accent));
-    color: rgb(var(--color-fill));
-  }
-
-  /* Footer links (reply, share, etc.) */
-  :global(.commentbox-footer a) {
-    color: rgb(var(--color-accent));
-  }
 </style> 

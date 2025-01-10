@@ -46,10 +46,11 @@ function reflectPreference() {
       
     // Update CommentBox theme
     if (window.commentBox) {
-      commentBox('5671363712909312-proj', {
+      commentBox('5703181736607744-proj', {
         className: 'commentbox',
         defaultBoxId: window.location.pathname,
-        darkMode: themeValue === 'dark'
+        backgroundColor: themeValue === 'dark' ? 'rgb(47, 55, 65)' : 'rgb(255, 251, 235)',
+        textColor: themeValue === 'dark' ? 'rgb(230, 230, 230)' : 'rgb(69, 26, 3)'
       });
     }
   }
