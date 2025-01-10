@@ -1,6 +1,6 @@
 ---
 author: Milan Milutinović
-pubDatetime: 2024-01-09
+pubDatetime: 2025-01-09
 title: First Step - Talk to your Customers
 slug: first-step-talk-to-your-customers
 featured: true
