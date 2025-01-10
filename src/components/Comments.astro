@@ -19,6 +19,36 @@ const { pageId } = Astro.props;
   .commentbox {
     margin-top: 2rem;
     padding-top: 2rem;
-    border-top: 1px solid var(--color-border);
+    border-top: 1px solid rgb(var(--color-border));
+  }
+
+  /* Comment input area */
+  :global(.commentbox-textbox) {
+    background-color: rgb(var(--color-card));
+    color: rgb(var(--color-text-base));
+    border: 1px solid rgb(var(--color-border));
+  }
+
+  /* Individual comments */
+  :global(.commentbox-comment) {
+    background-color: rgb(var(--color-card));
+    border: 1px solid rgb(var(--color-border));
+    margin: 1rem 0;
+  }
+
+  /* Username and timestamp */
+  :global(.commentbox-comment-username) {
+    color: rgb(var(--color-text-base));
+  }
+
+  /* Submit button and interactive elements */
+  :global(.commentbox-submit) {
+    background-color: rgb(var(--color-accent));
+    color: rgb(var(--color-fill));
+  }
+
+  /* Footer links (reply, share, etc.) */
+  :global(.commentbox-footer a) {
+    color: rgb(var(--color-accent));
   }
 </style> 
