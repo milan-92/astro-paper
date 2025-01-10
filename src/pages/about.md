@@ -2,7 +2,7 @@
 layout: ../layouts/AboutLayout.astro
 title: "About Me"
 author: Milan Milutinović
-description: What is the purpose of this blog?
+description: A little bit about your humble author
 ---
 
 My name is Milan. Nice to meet you. 

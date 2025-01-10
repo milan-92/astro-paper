@@ -8,13 +8,14 @@ draft: false
 description: >-
   From the time of writing there are 62 days left until the Vietnam Nomad Fest.
   So here's a nice deadline to get a basic MVP ready.
+modDatetime: 2025-01-10
 ---
 
 I had coffee today in Da Nang with Markos & Dimitris, the organizers of Vietnam Nomad Fest. They're interested in trialling the product at VNF - I also applied to present this journey on stage as as speaker at VNF as well. So pressure is on - if Conference King sucks at VNF I'll have to answer on stage to the wrath of an unhappy crowd. Let's hope they don't throw tomatoes at me.
 
 From the time of writing there are 62 days left until <a href="https://www.vietnamnomadfest.com" target="_blank">the Vietnam Nomad Fest</a>. So here's a nice deadline to get a basic MVP for Conference King ready. I can go on the website anytime I want to watch the clock tickdown in time to launch this MVP. It's good to have some fire under your feet to get things done.
 
-![Vietnam Nomad Fest](/assets/vnf.jpg)
+<img src="/assets/vnf.jpg" alt="Vietnam Nomad Fest">
 
 I also had a video call with Jan from <a href="https://nomads-in-paradise.com/" target="_blank">Nomads in Paradise</a>, he's currently in Germany.
 
