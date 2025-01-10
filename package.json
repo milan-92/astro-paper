@@ -13,6 +13,7 @@
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "lint": "eslint .",
     "update-dates": "tsx scripts/fixDates.ts",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
