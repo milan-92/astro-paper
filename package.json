@@ -12,7 +12,7 @@
     "format:check": "prettier --check . --plugin=prettier-plugin-astro",
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "lint": "eslint .",
-    "update-dates": "tsx scripts/updatePostDates.ts",
+    "update-dates": "tsx scripts/fixDates.ts",
     "prepare": "husky"
   },
   "dependencies": {

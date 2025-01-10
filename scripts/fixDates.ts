@@ -1,32 +1,35 @@
-import fs from "fs";
-import matter from "gray-matter";
-import { glob } from "glob";
+import * as fs from 'fs';
+import * as glob from 'glob';
+import matter from 'gray-matter';
+import { execSync } from 'child_process';
 
-async function fixDates() {
-  const files = await glob("src/content/blog/**/*.md");
+// Get only staged markdown files
+const getStagedMdFiles = () => {
+  const result = execSync('git diff --cached --name-only --diff-filter=ACM "*.md"')
+    .toString()
+    .trim();
+  return result ? result.split('\n') : [];
+};
 
-  files.forEach(file => {
-    const content = fs.readFileSync(file, "utf-8");
-    const { data, content: markdown } = matter(content);
-    let modified = false;
+// Format date as YYYY-MM-DD
+const formatDate = (date: Date) => {
+  return date.toISOString().split('T')[0];
+};
 
-    // Remove quotes from dates if they exist
-    if (data.pubDatetime && typeof data.pubDatetime === 'string') {
-      data.pubDatetime = data.pubDatetime.replace(/['"]/g, '');
-      modified = true;
-    }
-    
-    if (data.modDatetime && typeof data.modDatetime === 'string') {
-      data.modDatetime = data.modDatetime.replace(/['"]/g, '');
-      modified = true;
-    }
+const stagedFiles = getStagedMdFiles();
 
-    if (modified) {
-      const updatedContent = matter.stringify(markdown, data);
-      fs.writeFileSync(file, updatedContent);
-      console.log(`Fixed dates in ${file}`);
-    }
-  });
-}
-
-fixDates().catch(console.error); 
+stagedFiles.forEach(file => {
+  if (!file.startsWith('src/content/blog/')) return;
+  
+  const content = fs.readFileSync(file, 'utf-8');
+  const { data, content: markdown } = matter(content);
+  
+  // Update modDatetime
+  data.modDatetime = formatDate(new Date());
+  
+  const updatedContent = matter.stringify(markdown, data);
+  fs.writeFileSync(file, updatedContent);
+  
+  // Stage the updated file
+  execSync(`git add ${file}`);
+}); 
