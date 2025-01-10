@@ -37,13 +37,14 @@ modifiedFiles.forEach(file => {
     );
   } else {
     // Add modDatetime if it doesn't exist
-    frontmatter += `\nmodDatetime: ${today}`;
+    // Ensure there's a newline before and after the new entry
+    frontmatter = frontmatter.trim() + `\nmodDatetime: ${today}`;
   }
   
-  // Reconstruct the file
+  // Reconstruct the file with proper spacing
   const newContent = originalContent.replace(
     /^---\n[\s\S]*?\n---/,
-    `---\n${frontmatter}---`
+    `---\n${frontmatter}\n---`
   );
   
   fs.writeFileSync(file, newContent);
