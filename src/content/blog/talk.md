@@ -21,7 +21,7 @@ These early adopters are your first clients, and you must service them directly.
 
 The smart thing to do is to involve them all in the process and get them invested in the story. Use their experiences and ideas to shape the product and give them a sense of ownership over the final creation. It should just sell itself to them at that point - right?
 
-Not one line of code exists for Conference King yet - but I'm speaking to a few key people and future potential customersand getting their input over the next few days - these are my friends who run conferences all over the world for Digital Nomads, and a few of these conferences already use an app but they are open to a new solution.
+Not one line of code exists for Conference King yet - but I'm speaking to a few key people and future potential customers and getting their input over the next few days - these are my friends who run conferences all over the world for Digital Nomads, and a few of these conferences already use an app but they are open to a new solution.
 
 Jan Richter - <a href="https://nomads-in-paradise.com/" target="_blank">Nomads in Paradise</a>
 
