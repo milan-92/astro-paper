@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Milan Milutinović",
   profile: "https://milanmilutinovic.com/",
   desc: "Building in Public.",
-  title: "Milan Milutinović",
+  title: "Building Conference King in Public",
   ogImage: "milan.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
