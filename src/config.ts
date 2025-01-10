@@ -4,8 +4,8 @@ export const SITE: Site = {
   website: "https://milanmilutinovic.com/", // replace this with your deployed domain
   author: "Milan Milutinović",
   profile: "https://milanmilutinovic.com/",
-  desc: "Building in Public.",
-  title: "Conference King",
+  desc: "Building Conference King in Public.",
+  title: "Building Conference King in Public",
   ogImage: "favicon.svg",
   lightAndDarkMode: true,
   postPerIndex: 4,
