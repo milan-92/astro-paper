@@ -43,6 +43,15 @@ function reflectPreference() {
     document
       .querySelector("meta[name='theme-color']")
       ?.setAttribute("content", bgColor);
+      
+    // Update CommentBox theme
+    if (window.commentBox) {
+      commentBox('5671363712909312-proj', {
+        className: 'commentbox',
+        defaultBoxId: window.location.pathname,
+        darkMode: themeValue === 'dark'
+      });
+    }
   }
 }
 

@@ -9,6 +9,7 @@ description: >-
   From the time of writing there are 62 days left until the Vietnam Nomad Fest.
   So here's a nice deadline to get a basic MVP ready.
 modDatetime: 2025-01-10
+
 ---
 
 I had coffee today in Da Nang with Markos & Dimitris, the organizers of Vietnam Nomad Fest. They're interested in trialling the product at VNF - I also applied to present this journey on stage as as speaker at VNF as well. So pressure is on - if Conference King sucks at VNF I'll have to answer on stage to the wrath of an unhappy crowd. Let's hope they don't throw tomatoes at me.
@@ -26,6 +27,7 @@ From these conversations I decided on these basic featuresets to get Conference 
 1. **Schedule Management**
    - The event schedule will be created by the organizer and will be visible to all attendees. 
    - It will be conveniently navigable during the conference, real time updating so that you can see what's happening now and what's next.
+   - The schedule must be the source of truth for the organizer, updating it on the app must update it on his website and all other places as well.
 
 2. **Attendee Networking**
    - Attendee profiles, with what interests they have during the conference. Also will have their contact details so they can connect off the app

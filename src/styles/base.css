@@ -138,3 +138,31 @@ body {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' transform='scale(3)'%3E%3Crect width='100%25' height='100%25' fill='transparent'/%3E%3Cpath fill='none' stroke='currentColor' stroke-opacity='0.02' stroke-width='.2' d='M10 0v20ZM0 10h20Z'/%3E%3C/svg%3E");
   background-size: 60px 60px;
 }
+
+.countdown {
+  width: 255px;
+  font-weight: 500;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgb(var(--color-fill));
+}
+
+/* Add margin to body to prevent content from being hidden under fixed header */
+body {
+  padding-top: 60px; /* Adjust this value based on your header height */
+}
+
+@media (max-width: 640px) {
+  .countdown {
+    position: absolute;
+    top: 33px;
+    left: 7.5em;
+    font-size: 0.8rem;
+  }
+}

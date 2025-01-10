@@ -13,7 +13,7 @@ A long time ago I was an <a href="https://www.youtube.com/watch?v=hv7BS9yV2Rg" t
 
 Building software for other people has allowed me to travel the world as a Digital Nomad, meet amazing people, and learn a lot about myself. It led me to attending many Digital Nomad conferences and events around the world - the people I met at these conferences greatly changed my perspective on life. 
 
-These great events and meeting all these people - I was inspired to put my own conference together in <a href="https://www.nisnomadweek.com/" target="_blank">Niš, Serbia</a>. A little city in Serbia that I've been calling home for the past few years - the city my parents were born and raised in before they moved to Australia.
+These great events and meeting all these people - I was inspired to put my own conference together in <a href="https://www.nisnomadweek.com/" target="_blank">Niš, Serbia</a>. A little city in Serbia that I've been calling home for the past few years - the city my parents were born and raised in before they bought a one way ticket to Australia.
 
 Having attended many conferences, and organizing my own - and being largely disappointed by the experience of the conference apps - I decided to build my own. To make sure event organizers and attendees get the best experience possible. The working title for the app is Conference King.
 

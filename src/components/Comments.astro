@@ -1,0 +1,24 @@
+---
+// You can pass the page identifier as a prop if needed
+const { pageId } = Astro.props;
+---
+
+<div class="commentbox">
+</div>
+
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>
+  // Replace this with your project ID from CommentBox.io
+  commentBox('5671363712909312-proj', {
+    className: 'commentbox',
+    defaultBoxId: window.location.pathname
+  });
+</script>
+
+<style>
+  .commentbox {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+</style> 
