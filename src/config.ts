@@ -41,7 +41,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Spotify",
-    href: "https://stackoverflow.com/search?q=astropaper",
+    href: "https://open.spotify.com/artist/0xrfqmN56GFHKol7CH1pHI?si=u4x4UCqsRe2lhiXSJnqrGA&dl_branch=1",
     linkTitle: `Listen to The New Savages on Spotify`,
     active: true,
   },
