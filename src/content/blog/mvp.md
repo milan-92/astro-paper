@@ -13,7 +13,7 @@ I had coffee today in Da Nang with Markos & Dimitris, the organizers of Vietnam 
 
 From the time of writing there are 62 days left until <a href="https://www.vietnamnomadfest.com" target="_blank">the Vietnam Nomad Fest</a>. So here's a nice deadline to get a basic MVP for Conference King ready. I can go on the website anytime I want to watch the clock tickdown in time to launch this MVP. It's good to have some fire under your feet to get things done.
 
-<img src="/src/assets/images/vnf.jpg" alt="Vietnam Nomad Fest" />
+![Vietnam Nomad Fest](/src/assets/images/vnf.jpg)
 
 From our conversation I decided on these basic featuresets to get Conference King ready for VNF.
 
