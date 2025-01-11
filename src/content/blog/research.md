@@ -8,6 +8,7 @@ draft: false
 description: >-
   You should never build anything from scratch. There are existing open source tools and projects that you can leverage to build your product. Doing research properly can save a lot of wasted time in developing a solution that already exists and is available to build on top of for free.
 modDatetime: 2025-01-11
+
 ---
 
 You should never build anything from scratch. There are existing open source tools and projects that you can leverage to build your product. Doing research properly can save a lot of wasted time in developing a solution that already exists and is available to build on top of for free.
@@ -38,4 +39,6 @@ I setup Radicale on my local machine with a few commands played with it for a li
 
 I listen a lot to <a href="https://www.startupsfortherestofus.com/" target="_blank">Rob Walling's podcast</a> - and I remember him always mentioning <a href="https://cal.com" target="_blank">Cal.com</a> which I think is one of the companies he's invested in. They have open source software which I could use as the basis for the scheduling component - specifically their <a href="https://github.com/calcom/platform-starter-kit?tab=readme-ov-file" target="_blank">platform starter kit</a>.
 
-If you have any ideas for tooling that could help me build Conference King - please let me know! Drop a comment below or reply to me by email :)
+Cal.com is also an <a href="https://cal.com/open" target="_blank">Open Startup</a>. I really respect this kind of approach to building a business - maybe Conference King will be an Open Startup too?
+
+If you have any ideas or advice for tooling that could help me build Conference King - please let me know! Drop a comment below or reply to me by email :)
