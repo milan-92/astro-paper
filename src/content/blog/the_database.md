@@ -10,7 +10,13 @@ modDatetime: 2025-01-12
 
 ---
 
-The Database is the source of truth for everything. So this is the first thing to think about when it comes to actually engineering and not just writing blog posts. Luckily I didn't have to think about it too much, I just asked chatGPT and it gave me this great starting point for a schema. I'm putting this here for my own reference.
+The Database is the source of truth for everything. So this is the first thing to think about when it comes to actually 
+engineering and not just writing blog posts. Luckily I didn't have to think about it too much, I just asked chatGPT and it 
+gave me this great starting point for a schema. I'm putting this here for my own reference.
+
+> Here's a great starting point for a database schema that will support most conference management needs.
+>
+> &mdash; ChatGPT, January 2025
 
 1. `attendees` Table
 
