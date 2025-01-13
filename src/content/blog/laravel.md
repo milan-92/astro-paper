@@ -6,7 +6,8 @@ slug: to-laravel-or-not-to-laravel
 featured: true
 draft: false
 description: "Laravel seems like the best choice for a framework to setup this project. But I have a few misgivings."
-modDatetime: 2025-01-12
+modDatetime: 2025-01-13
+
 ---
 
 Laravel seems like the best choice for a framework to setup this project. But I have a few misgivings.
@@ -65,7 +66,7 @@ Their documentation seems very robust and easy to digest and follow along with. 
 
 Although I don't know - I don't think anyone truly understands what Object Oriented Programming even is but they seem to be awful evangelistic about it. I'm a big believer in conspiracy theories and I'm convinced that OOP is a religion disguised as a programming paradigm. 
 
-I'm also convinced that these two letters -  Ћ Ч in Serbian 🇷🇸 produce the exact same sound but the whole country is mass hallucinating thinking that they are different. So I have a funny way of looking at things sometimes.
+I'm also convinced that these two letters - **Ћ Ч** in Serbian 🇷🇸 produce the exact same sound but the whole country is mass hallucinating thinking that they are different. So I have a funny way of looking at things sometimes.
 
 3. Laravel's Community
 
