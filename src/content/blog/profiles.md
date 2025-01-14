@@ -1,12 +1,13 @@
 ---
 author: Milan Milutinović
 pubDatetime: 2025-01-14
-title: "Profiles of attendees"
+title: "First Design for Profiles"
 slug: profiles-of-attendees
 featured: true
 draft: false
 description: "Getting these profiles right is the first step. The process of an attendee populating their profile needs to be as frictionless and exciting as possible. They should be creating their profile and looking forward to sharing it with other attendees."
 modDatetime: 2025-01-14
+
 ---
 
 ## Conference King Social Platform

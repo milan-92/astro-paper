@@ -7,6 +7,7 @@ featured: false
 draft: false
 description: "In this article I position myself as a modern day Martin Luther (The monk, not the black guy) with a polemical rant against all modern web development practices. It's a must read."
 modDatetime: 2025-01-14
+
 ---
 
 Alright I think I've got a good reason to not use a framework for Conference King. And I'm going to use this article to draw an allegory to my favourite historical figure - <a href="https://en.wikipedia.org/wiki/Martin_Luther" target="_blank">Martin Luther (the monk, not the black guy)</a>.
@@ -17,7 +18,7 @@ Alright I think I've got a good reason to not use a framework for Conference Kin
 </div>
 
 
-I've decided against Laravel for this project. It just seems unnecessary. Really all I want from it is auth out of the box. But I can get that elsewhere. All these vague promises of clean code. I watched a few hours of Laracasts and I didn't see anything clean. I have no idea why routing is done the way it's done in all these frameworks. 
+I've decided against Laravel for this project. <a href="/posts/to-laravel-or-not-to-laravel">Even though I was considering it just a few days ago</a>. It just seems unnecessary. Really all I want from it is auth out of the box. But I can get that elsewhere. All these vague promises of clean code. I watched a few hours of Laracasts and I didn't see anything clean. I have no idea why routing is done the way it's done in all these frameworks.
 
 So I'm gonna stick to my caveman tech stack - it loads super quick, and it makes junior Javascript developers cry because it breaks their narrative - good enough for me.
 
