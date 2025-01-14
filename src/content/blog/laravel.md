@@ -7,6 +7,7 @@ featured: false
 draft: false
 description: "Laravel seems like the best choice for a framework to setup this project. But I have a few misgivings."
 modDatetime: 2025-01-14
+
 ---
 
 Laravel seems like the best choice for a framework to setup this project. But I have a few misgivings.
