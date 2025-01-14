@@ -3,10 +3,10 @@ author: Milan Milutinović
 pubDatetime: 2025-01-13
 title: "To Laravel or not to Laravel?"
 slug: to-laravel-or-not-to-laravel
-featured: true
+featured: false
 draft: false
 description: "Laravel seems like the best choice for a framework to setup this project. But I have a few misgivings."
-modDatetime: 2025-01-13
+modDatetime: 2025-01-14
 
 ---
 
