@@ -15,10 +15,10 @@ image: /assets/social_wireframe/combination.png
 Here are some screenshots of the mobile version's design in progress, which I'm building on <a href="https://www.canva.com" target="_blank">Canva</a>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-    <img src="/assets/social_wireframe/1.jpg" alt="Social wireframe 1" style="width: 45%; max-width: 400px;" />
-    <img src="/assets/social_wireframe/2.jpg" alt="Social wireframe 2" style="width: 45%; max-width: 400px;" />
-    <img src="/assets/social_wireframe/5.jpg" alt="Social wireframe 5" style="width: 45%; max-width: 400px;" />
-    <img src="/assets/social_wireframe/6.jpg" alt="Social wireframe 6" style="width: 45%; max-width: 400px;" />
+    <img src="/assets/social_wireframe/1.jpg" alt="Social wireframe 1" style="max-width: 300px;" />
+    <img src="/assets/social_wireframe/2.jpg" alt="Social wireframe 2" style="max-width: 300px;" />
+    <img src="/assets/social_wireframe/5.jpg" alt="Social wireframe 5" style="max-width: 300px;" />
+    <img src="/assets/social_wireframe/6.jpg" alt="Social wireframe 6" style="max-width: 300px;" />
 </div>
 
 
