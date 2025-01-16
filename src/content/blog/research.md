@@ -4,10 +4,10 @@ pubDatetime: 2025-01-11
 title: Let the Research Begin
 slug: let-the-research-begin
 featured: false
-draft: false
+draft: true
 description: >-
   You should never build anything from scratch. There are existing open source tools and projects that you can leverage to build your product. Doing research properly can save a lot of wasted time in developing a solution that already exists and is available to build on top of for free.
-modDatetime: 2025-01-13
+modDatetime: 2025-01-16
 
 ---
 

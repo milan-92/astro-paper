@@ -4,11 +4,12 @@ pubDatetime: 2025-01-09
 title: First Step - Talk to your Customers
 slug: first-step-talk-to-your-customers
 featured: true
-draft: false
+draft: true
 description: >-
   Your software exists to serve the needs of your customers. Don't build your
   MVP and hope to find customers. Build your relationship with your customers
   before you write a single line of code.
+modDatetime: 2025-01-16
 ---
 
 Your software exists to serve the needs of your customers. Don't build your MVP and hope to find customers. Build your relationship with your customers before you write a single line of code.

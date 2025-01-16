@@ -4,9 +4,10 @@ pubDatetime: 2025-01-14
 title: "Words matter. I don't say AI - I say LLM"  
 slug: no-ai
 featured: false
-draft: false
+draft: true
 description: "I hate the marketing buzzword AI. Too many worthless startups are using the word AI to get funding. Or just because. I'll be using the term LLM (Large Language Model) instead. This is what we mean by AI anyway. In a few years the word AI will fall out of marketing speak as it is a loaded buzzword."
-modDatetime: 2025-01-14
+modDatetime: 2025-01-16
+
 ---
 
 > Believe nothing you hear, and only one half that you see.

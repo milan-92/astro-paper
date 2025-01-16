@@ -4,9 +4,9 @@ pubDatetime: 2025-01-12
 title: "The Database is the King behind Conference King"
 slug: the-database-is-the-king-behind-conference-king
 featured: false
-draft: false
+draft: true
 description: "The Database is the source of truth for everything. So this is the first thing to think about. Luckily I didn't have to think about it too much, I just asked chatGPT."
-modDatetime: 2025-01-12
+modDatetime: 2025-01-16
 
 ---
 

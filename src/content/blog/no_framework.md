@@ -4,9 +4,9 @@ pubDatetime: 2025-01-14
 title: "Why real men don't use frameworks. Real men code in raw PHP."
 slug: why-real-men-dont-use-frameworks
 featured: false
-draft: false
+draft: true
 description: "In this article I position myself as a modern day Martin Luther (The monk, not the black guy) with a polemical rant against all modern web development practices. It's a must read."
-modDatetime: 2025-01-14
+modDatetime: 2025-01-16
 
 ---
 
