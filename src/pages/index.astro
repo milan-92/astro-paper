@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero" class="prose" style="max-width:48rem">
-      <h1 style="font-size: 2rem; margin-top:">Building Conference King in Public</h1>
+      <h1 style="font-size: 2rem; margin-top:">Conference King</h1>
       <!-- <a
         target="_blank"
         href="/rss.xml"
@@ -42,9 +42,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a> -->
 
       <p>
-        Hey there! - I'm Milan Milutinović. In August 2024 I put a conference together for digital nomads together in <a href="https://www.nisnomadweek.com/" target="_blank">Niš, Serbia 🇷🇸</a>
+        Hey there! - I'm Milan Milutinović. In August 2024 Zoran Popović of <a href="https://futureforward.nl/" target="_blank">Future Forward</a> and I put a conference together for digital nomads together in <a href="https://www.nisnomadweek.com/" target="_blank">Niš, Serbia 🇷🇸</a>
       </p>
-      <p>In 2025 the Niš Nomad Week will need an app for the conference - so I'm building a custom solution, and I plan on whitelabelling it and licensing it to other event organizers - I'll be sharing that journey with you here. The working title for the app is <b><em>Conference King</em></b>.</p>
+
+      <p>I've attended many conferences all over the world - the people I connected with, along with the talks & workshops I've attended have helped me grow immensely not only in professional career but have also helped me gain new perspectives on life. I also made a lot of great friends along the way.</p>
+      
+      <h2>My Mission</h2>
+
+      <p>Many small to mid level conferences (100-500 attendees) are priced out of having a custom app solution that makes sense for their business</p>
+      
+      <p>I want to change that because I believe all conferences deserve access to their own custom app - and all conference attendees are entitled to getting the most out of the events they attend.</p>
+        
+      <p>This is my first time starting a software product business, and I'm a one man show. I'll be coding, designing, marketing and selling the app as a solo founder - I want to share this journey with you.</p>
+      
+      <p>Maybe you can even help me along the way. <em>That's what friends are for!</em></p>
+        
+      <p>The working title for the app is <b><em>Conference King</em></b>.</p>
     </section>
 
     <Hr />
@@ -53,7 +66,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2 style={{ marginBottom: '1em' }}>Featured</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card

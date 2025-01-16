@@ -7,7 +7,7 @@ featured: true
 draft: false
 description: "Getting these profiles right is the first step. The process of an attendee populating their profile needs to be as frictionless and exciting as possible. They should be creating their profile and looking forward to sharing it with other attendees."
 modDatetime: 2025-01-16
-
+image: /assets/social_wireframe/combination.png
 ---
 
 ## Conference King Social Platform
@@ -15,10 +15,10 @@ modDatetime: 2025-01-16
 Here are some screenshots of the mobile version's design in progress, which I'm building on <a href="https://www.canva.com" target="_blank">Canva</a>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-    <img src="/assets/social_wireframe/1.jpg" alt="Social wireframe 1" style="width: 45%;" />
-    <img src="/assets/social_wireframe/2.jpg" alt="Social wireframe 3" style="width: 45%;" />
-    <img src="/assets/social_wireframe/5.jpg" alt="Social wireframe 5" style="width: 45%;" />
-    <img src="/assets/social_wireframe/6.jpg" alt="Social wireframe 6" style="width: 45%;" />
+    <img src="/assets/social_wireframe/1.jpg" alt="Social wireframe 1" style="width: 45%; max-width: 400px;" />
+    <img src="/assets/social_wireframe/2.jpg" alt="Social wireframe 2" style="width: 45%; max-width: 400px;" />
+    <img src="/assets/social_wireframe/5.jpg" alt="Social wireframe 5" style="width: 45%; max-width: 400px;" />
+    <img src="/assets/social_wireframe/6.jpg" alt="Social wireframe 6" style="width: 45%; max-width: 400px;" />
 </div>
 
 

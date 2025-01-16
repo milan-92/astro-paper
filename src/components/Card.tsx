@@ -4,20 +4,20 @@ import type { CollectionEntry } from "astro:content";
 
 export interface Props {
   href?: string;
-  frontmatter: CollectionEntry<"blog">["data"];
+  frontmatter: CollectionEntry<"blog">["data"] & { image?: string };
   secHeading?: boolean;
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, image } = frontmatter;
 
   const headerProps = {
-    style: { viewTransitionName: slugifyStr(title) },
+    style: { viewTransitionName: slugifyStr(title), fontSize: "1.5rem" },
     className: "text-lg font-medium decoration-dashed hover:underline",
   };
 
   return (
-    <li className="my-6">
+    <li className="addHorizontalLines">
       <a
         href={href}
         className="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
@@ -29,7 +29,12 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
         )}
       </a>
       <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
-      <p>{description}</p>
+      <p style={{ margin: '1em 0' }}>{description}</p>
+      {image && (
+        <>
+          <img src={image} alt={title} style={{ width: 'auto', height: 'auto' }} />
+        </>
+      )}
     </li>
   );
 }

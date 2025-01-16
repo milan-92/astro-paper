@@ -8,6 +8,7 @@ draft: false
 description: >-
   From the time of writing there are 62 days left until the Vietnam Nomad Fest.
   So here's a nice deadline to get a basic MVP ready.
+image: "/assets/vnf.jpg"
 modDatetime: 2025-01-10
 
 ---

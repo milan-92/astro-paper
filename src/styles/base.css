@@ -153,6 +153,12 @@ body {
   font-weight: 500;
 }
 
+.addHorizontalLines:not(:last-child) {
+  border-bottom: 2px dashed rgb(var(--color-border));
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
 header {
   position: fixed;
   top: 0;
